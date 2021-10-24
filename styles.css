@@ -1,0 +1,150 @@
+#title{
+	background-color: #ff4c68;
+	color: #fff;
+	position: relative;
+
+}
+/*.................................................... tags-css........................................................*/
+body{
+	font-family: "Montserrat-Thin";
+}
+h1{
+	font-family: "Montserrat-Black";
+	font-weight: bolder;
+	font-size: 3.5rem;
+	line-height: 1.5;
+}
+i{
+	color: #ef8172;
+	margin-bottom: 1rem;
+}
+i:hover{
+	color:#ff4c68;
+}
+
+h3{
+	font-family:"Montserrat-Bold";
+	font-weight: bold;
+}
+h2{
+	font-family:"Montserrat-Bold";
+	font-weight: bold;
+	font-size: 2rem;
+	line-height: 1.5;
+	}
+	span{
+	margin-right: 20px;
+	margin-bottom: 30px;
+}
+
+
+/* .................................................................class-css...................................................... */
+.container-fluid{
+	padding:3% 15% ;
+	padding-bottom: 7%;
+}
+
+
+.navbar{
+	padding-bottom: 4.5rem;
+}
+.navbar-brand{
+	font-family: Ubuntu;
+	font-size: 0 0 2.5rem;
+	font-weight: bold;
+}
+.nav-item{
+	padding: 0 18px;
+}
+.nav-link{
+  font-family:"Montserrat-Thin";
+  font-size: 1.2rem;
+
+}
+.button{
+	margin: 5% 3% 5% 0;
+}
+.title-image{
+	width: 60%;
+	transform: rotate(25deg);
+	position: absolute;
+	right: 25%;
+}
+
+
+}
+.down-nav{
+	margin-top: 5%;
+}
+.feature{
+	text-align: center;
+	padding: 5% 15%;
+	background-color: #fff;
+	position: relative;
+	z-index: 1;
+}
+.testi-image{
+	width: 20%;
+	border-radius: 100%;
+	margin: 10px;
+}
+.press-image{
+	width: 10%;
+	margin: 3% 5%;
+}
+.carousel-item{
+	padding: 2% 15%;
+
+}
+.cta-heading{
+	font-size: 3.5rem;
+	width: 50%;
+	margin: 2% auto;
+}
+/* .................................................................id-css...................................................... */
+
+#testimonials{
+	margin-left: 0;
+	margin-right: 0;
+	text-align: center;
+	color: #fff;
+	background-color:#ef8172;
+}
+
+#press{
+	background-color:#ef8172;
+	text-align: center;
+	padding-bottom: 3%;
+}
+
+#pricing{
+	padding: 100px;
+	text-align: center;
+}
+.card-stryle{
+	padding: 3% 2%;
+
+}
+@media (max-width: 992px){
+	#title{
+		text-align: center;
+	}
+	.title-image{
+		transform: rotate(0deg);
+		position: static;
+	}
+}
+#cta{
+	background-color: #ff4c68;
+	font-weight: bolder;
+	text-align: center;
+	padding: 5% 2%;
+	color: #fff;
+}
+#footer{
+	text-align: center;
+	padding: 5% 2%;
+}
+
+ 
+
